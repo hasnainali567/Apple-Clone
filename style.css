@@ -141,6 +141,37 @@ header{
 }
 
 
+
+
+
+.promo-text{
+    top: 7%;
+}
+
+.p-t-btn>button{
+    background-color: #0077ED;
+    border: 1px solid #0077ED;
+    color: white;
+    border-radius: 50px;
+}
+
+.p-t-btn>button:nth-child(2){
+    color: #0077ED;
+}
+
+.promo-16>.p-t-btn>button{
+    background-color: white;
+    color: #000000;
+    border: 1px solid white;
+}
+
+.promo-16>.p-t-btn>button:nth-child(2){
+    color: white;
+}
+
+
+
+
 @media screen and (max-width : 769px) {
     .svg{
         width: 18px;
@@ -186,13 +217,6 @@ header{
     .s-c-t-btn>button,
     .f-c-t-btn>button {
         font-size: .95rem;
-    }
-
-
-    .promo > .s-c-t-btn>button{
-        background-color: white;
-        color: #000000;
-        border: 1px solid black;
     }
 }
 
