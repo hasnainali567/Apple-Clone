@@ -50,7 +50,7 @@ header{
     align-items: center;
     justify-content: center;
     height: fit-content;
-    height: 83vh;
+    height: 92vh;
     width: 100%;
     overflow: hidden;
     background-color: #000000;
@@ -82,13 +82,34 @@ header{
 }
 
 
+
+.f-c-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    bottom: 10%;
+    font-weight: 400;
+}
+
+
+.f-c-t-btn>button {
+    border: 1px solid white;
+    border-radius: 50px;
+    color: #000000;
+}
+
+.f-c-t-btn>button:nth-child(2){
+    color: white;
+}
 @media screen and (max-width : 769px) {
     .svg{
         width: 18px;
     }
 
     .first-container{
-        height: 78vh;
+        height: 85vh;
     }
 
 }
@@ -96,5 +117,9 @@ header{
 @media screen and (max-width : 426px) {
     .promo{
         width: 100%;
+    }
+
+    .f-c-text>h4{
+        font-size: 1.2rem;
     }
 }
