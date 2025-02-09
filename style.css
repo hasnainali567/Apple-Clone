@@ -103,21 +103,101 @@ header{
 .f-c-t-btn>button:nth-child(2){
     color: white;
 }
+
+
+.s-c-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    top: 10%;
+    font-weight: 400;
+}
+
+.s-c-text>h1{
+    font-weight: 900;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}
+
+.s-c-text>h4{
+    padding: 0;
+    margin: 0;
+}
+
+
+.s-c-t-btn>button {
+    background-color: #0077ED;
+    border: 1px solid #0077ED;
+    border-radius: 50px;
+    color: white;
+    margin-top: 5px;
+}
+
+.s-c-t-btn>button:nth-child(2){
+    color: #0077ED;
+}
+
+
 @media screen and (max-width : 769px) {
     .svg{
         width: 18px;
     }
 
     .first-container{
-        height: 85vh;
+        height: 82vh;
+    }
+
+    .f-c-text {
+        bottom: 8%;
+    }
+
+    .i-gold{
+        padding-top: 160px;
     }
 
 }
 
-@media screen and (max-width : 426px) {
+@media screen and (max-width : 550px) {
     .promo{
         width: 100%;
     }
+
+    .s-c-text{
+        top: 5%;
+    }
+
+    .i-gold{
+        padding-top: 150px;
+    }
+
+    .s-c-text>h1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .s-c-text>h4{
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+    .s-c-t-btn>button,
+    .f-c-t-btn>button {
+        font-size: .95rem;
+    }
+
+
+    .promo > .s-c-t-btn>button{
+        background-color: white;
+        color: #000000;
+        border: 1px solid black;
+    }
+}
+
+@media screen and (max-width : 426px) {
+    
 
     .f-c-text>h4{
         font-size: 1.2rem;
