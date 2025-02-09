@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: SFPRODISPLAY;
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+header{
+    z-index: 99;
+    background-color: #161617cc;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+}
+
+.nav-items{
+    color: rgba(200, 200, 200, 0.933);
+    text-decoration: none;
+    font-size: .8em;
+    font-weight: 400;
+}
+
+.nav-items:hover {
+    color: rgba(255, 255, 255, 0.9); /* More noticeable */
+    transition: color 0.3s ease-in-out;
+}
+
+
+
+.svg{
+    width: 15px;
+}
+
+.last{
+    margin-right: 15px;
+}
+
+
+.first-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    height: 83vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.first-container>img{
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.img-1{
+    background: linear-gradient(to top, #C0BCB9 22%, #DDD8D5 40%, #DEDBD6 14%);
+}
+
+.promo-container{
+    width: 100%;
+}
+
+.promo{
+    width: 50%;
+    height: 80vh;
+    overflow-x: hidden;
+}
+
+.promo>img{
+    height: 100%;
+    object-position: center;
+}
+
+
+@media screen and (max-width : 769px) {
+    .svg{
+        width: 18px;
+    }
+
+    .first-container{
+        height: 78vh;
+    }
+
+}
+
+@media screen and (max-width : 426px) {
+    .promo{
+        width: 100%;
+    }
+}
