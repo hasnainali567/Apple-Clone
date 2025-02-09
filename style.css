@@ -98,10 +98,17 @@ header{
     border: 1px solid white;
     border-radius: 50px;
     color: #000000;
+    transition: .1s ease-in-out;
 }
 
 .f-c-t-btn>button:nth-child(2){
     color: white;
+    background-color: transparent;
+}
+
+.f-c-t-btn>button:nth-child(2):hover{
+    color: #000000;
+    background-color: white;
 }
 
 
@@ -138,6 +145,12 @@ header{
 
 .s-c-t-btn>button:nth-child(2){
     color: #0077ED;
+    background-color: transparent;
+    transition: .1s ease-in-out;
+}
+.s-c-t-btn>button:nth-child(2):hover{
+    color: #ffffff;
+    background-color: #0077ED;
 }
 
 
@@ -153,10 +166,17 @@ header{
     border: 1px solid #0077ED;
     color: white;
     border-radius: 50px;
+    transition: .1s ease-in-out;
 }
 
 .p-t-btn>button:nth-child(2){
     color: #0077ED;
+    background-color: transparent;
+}
+
+.p-t-btn>button:nth-child(2):hover{
+    color: white;
+    background-color: #0077ED;
 }
 
 .promo-16>.p-t-btn>button{
@@ -167,6 +187,12 @@ header{
 
 .promo-16>.p-t-btn>button:nth-child(2){
     color: white;
+    background-color: transparent;
+}
+
+.promo-16>.p-t-btn>button:nth-child(2):hover{
+    color: #000000;
+    background-color: white;
 }
 
 
